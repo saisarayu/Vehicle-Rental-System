@@ -10,12 +10,15 @@ public class Main {
 
         // Add Customer
         Customer c1 = new Customer("CU1", "Sarayu");
+        
+
 
         // Display Vehicles
         system.displayAvailableVehicles();
 
         // Rent a Vehicle
         Rental rental = system.rentVehicle("C1", c1, 3);
+        
         if (rental != null) {
             rental.showRentalInfo();
         }
