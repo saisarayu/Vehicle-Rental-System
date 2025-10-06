@@ -8,5 +8,7 @@ public class Customer {
     }
 
     public String getCustomerId() { return customerId; }
-    public String getName() { return name; }
+    public String getName() {
+         return name;
+         }
 }
